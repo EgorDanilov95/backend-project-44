@@ -2,7 +2,7 @@
   "name": "@hexlet/code",
   "type": "module",
   "bin": {
-    "nodejs-package": "bin/nodejs-package.js"
+    "brain-games": "bin/brain-games.js"
   },
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/EgorDanilov95/backend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/EgorDanilov95/backend-project-44/actions)",
