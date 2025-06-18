@@ -1,12 +1,12 @@
 import readlineSync from 'readline-sync'
 import { rules, genRound } from '/home/Egor/Desktop/backend-project-44/crs/games/calc.js'
 
-export const game = () => {
+const game = (gameName) => {
   const name = readlineSync.question('May I have your name? ')
   console.log(`Hello, ${name}!`)
-  console.log(rules)
+  console.log(gameName.rules)
   for (let i = 0; i < 3; i++) {
-    const [question, correctAnswer] = genRound()
+    const [question, correctAnswer] = gameName.genRound()
     console.log(`Question: ${question}`)
     const answer = readlineSync.question('Your answer: ').toLowerCase()
     if (answer === correctAnswer) {
@@ -19,3 +19,5 @@ export const game = () => {
   }
   return console.log(`Congratulations, ${name}!`)
 }
+
+export default game

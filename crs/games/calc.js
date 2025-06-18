@@ -1,6 +1,6 @@
 import _ from 'lodash'
 export const randomNum = () => {
-  return _.random(1, 100)
+  return _.random(1, 10)
 }
 export const rules = 'What is the result of the expression?'
 export const genRound = () => {
@@ -22,3 +22,4 @@ export const genRound = () => {
   const question = (`${firstNum} ${randomOperator} ${secondNum}`)
   return [question, String(correctAnswer)]
 }
+export default {rules, genRound}
