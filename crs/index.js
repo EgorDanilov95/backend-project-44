@@ -1,17 +1,14 @@
-import _ from 'lodash'
 import readlineSync from 'readline-sync'
-const randomNum = () => {
-  return _.random(1, 100)
-}
-const iseven = () => {
+import { rules, genRound } from '/home/Egor/Desktop/backend-project-44/crs/games/calc.js'
+
+export const game = () => {
   const name = readlineSync.question('May I have your name? ')
   console.log(`Hello, ${name}!`)
-  console.log('Answer "yes" if the number is even, otherwise answer "no".')
+  console.log(rules)
   for (let i = 0; i < 3; i++) {
-    const number = randomNum()
-    console.log(`Question: ${number}`)
+    const [question, correctAnswer] = genRound()
+    console.log(`Question: ${question}`)
     const answer = readlineSync.question('Your answer: ').toLowerCase()
-    const correctAnswer = (number % 2 === 0) ? 'yes' : 'no'
     if (answer === correctAnswer) {
       console.log('correct!')
     }
@@ -22,5 +19,3 @@ const iseven = () => {
   }
   return console.log(`Congratulations, ${name}!`)
 }
-
-export { randomNum, iseven }
