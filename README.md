@@ -10,3 +10,5 @@ https://asciinema.org/connect/9af304f0-6b01-4984-84a5-0593b661fe01 - аскин�
 https://asciinema.org/a/ImUrci2dYJ1PmBExz0TFYcVA5 - аксинема игры НОД
 
 https://asciinema.org/connect/9af304f0-6b01-4984-84a5-0593b661fe01 - аксинема игры прогрессия
+
+https://asciinema.org/connect/9af304f0-6b01-4984-84a5-0593b661fe01 - аксинема игры простое число

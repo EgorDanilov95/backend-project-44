@@ -22,4 +22,4 @@ export const genRound = () => {
   const question = (`${firstNum} ${randomOperator} ${secondNum}`)
   return [question, String(correctAnswer)]
 }
-export default {rules, genRound}
+export default { rules, genRound }

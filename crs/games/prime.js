@@ -1,0 +1,27 @@
+import _ from 'lodash'
+export const isPrime = (num) => {
+  if (num < 2) {
+    return false
+  }
+  else if (num === 2) {
+    return true
+  }
+  else if (num % 2 === 0) {
+    return false
+  }
+
+  for (let i = 3; i <= Math.sqrt(num); i += 2) {
+    if (num % i === 0) {
+      return false
+    }
+  }
+  return true
+}
+
+const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+const genRound = () => {
+  let question = _.random(1, 12)
+  let correctAnswer = (isPrime(question) === true) ? 'yes' : 'no'
+  return [question, correctAnswer]
+}
+export default {rules, genRound}
