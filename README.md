@@ -8,3 +8,5 @@ https://asciinema.org/a/0XcSKWQT6Q8IwHr67TFzhStB8
 https://asciinema.org/connect/9af304f0-6b01-4984-84a5-0593b661fe01 - аскинема игры калькулятор
 
 https://asciinema.org/a/ImUrci2dYJ1PmBExz0TFYcVA5 - аксинема игры НОД
+
+https://asciinema.org/connect/9af304f0-6b01-4984-84a5-0593b661fe01 - аксинема игры прогрессия

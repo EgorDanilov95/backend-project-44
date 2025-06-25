@@ -1,6 +1,7 @@
 import readlineSync from 'readline-sync'
 import { rules, genRound } from '/home/Egor/Desktop/backend-project-44/crs/games/calc.js'
-
+import progressionGame from '/home/Egor/Desktop/backend-project-44/crs/games/progress.js'
+import { progression } from '/home/Egor/Desktop/backend-project-44/crs/games/progress.js'
 const game = (gameName) => {
   const name = readlineSync.question('May I have your name? ')
   console.log(`Hello, ${name}!`)
