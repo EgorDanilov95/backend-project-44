@@ -1,3 +1,4 @@
 #!/usr/bin/env node
-import { iseven } from '/home/Egor/Desktop/backend-project-44/crs/even.js'
-iseven()
+import evenGame from '/home/Egor/Desktop/backend-project-44/crs/games/even.js'
+import game from '/home/Egor/Desktop/backend-project-44/crs/index.js'
+game(evenGame)
