@@ -24,4 +24,4 @@ const genRound = () => {
   let correctAnswer = (isPrime(question) === true) ? 'yes' : 'no'
   return [question, correctAnswer]
 }
-export default {rules, genRound}
+export default { rules, genRound }
