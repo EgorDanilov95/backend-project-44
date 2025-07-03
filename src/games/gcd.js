@@ -1,11 +1,9 @@
 import _ from 'lodash'
-export const randomNum = () => {
-  return _.random(1, 20)
-}
+
 const rules = 'Find the greatest common divisor of given numbers.'
 const genRound = () => {
-  let firstNum = randomNum()
-  let secondNum = randomNum()
+  let firstNum = _.random(1, 20)
+  let secondNum = _.random(1, 20)
   const question = (`${firstNum} ${secondNum}`)
   while (secondNum !== 0) {
     [firstNum, secondNum] = [secondNum, firstNum % secondNum]

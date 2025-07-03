@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import game from '../crs/index.js'
-import gcdGame from '../crs/games/gcd.js'
+import game from '../src/index.js'
+import gcdGame from '../src/games/gcd.js'
 game(gcdGame)

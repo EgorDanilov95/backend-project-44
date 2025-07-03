@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import game from '../crs/index.js'
-import calcGame from '../crs/games/calc.js'
+import game from '../src/index.js'
+import calcGame from '../src/games/calc.js'
 game(calcGame)
